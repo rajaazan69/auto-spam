@@ -1,0 +1,83 @@
+{
+    "token": "",
+    "clientId": "",
+    "mmban": "",
+    "mmbanLogs": "",
+    "guildId": "",
+    "topTraderRoleId": "",
+	"leaderboardChannelId": "",
+	"transcriptLogChannelId": "",
+    "serverModLogChannelId": "",
+    "muteRoleId": "",
+    "backupServerId": "",
+    "traderLeaderboardChannelId": "",
+    "backupServerInviteLink": "",
+    "ticketPanelChannelId": "",
+    "prefix": "$",
+    "roles": {
+        "trialMM": "",
+        "beginnerMM": "",
+        "middleman": "",
+        "seniorMM": "",
+        "supremeMM": "",
+        "headMM": "",
+        "administrator": "",
+        "newAccountRoleId": "",
+        "staffRoles": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "mmTiers": {
+        "trial": {
+            "name": "Trial Middleman - Trade Below $32/9k Robux",
+            "value": "trial_mm",
+            "pingRoles": ["trialMM", "beginnerMM", "middleman", "seniorMM", "supremeMM", "headMM", "administrator"]
+        },
+        "beginner": {
+            "name": "Beginner Middleman - Trade Between $32-$55/9k-16k Robux",
+            "value": "beginner_mm",
+            "pingRoles": ["beginnerMM", "middleman", "seniorMM", "supremeMM", "headMM", "administrator"]
+        },
+        "middleman_tier": {
+            "name": "Middleman - Trade Between $55-$90/16k-25k Robux",
+            "value": "middleman_tier_mm",
+            "pingRoles": ["middleman", "seniorMM", "supremeMM", "headMM", "administrator"]
+        },
+        "senior": {
+            "name": "Senior Middleman - Trade Between $90-$165/25k-50k Robux",
+            "value": "senior_mm",
+            "pingRoles": ["seniorMM", "supremeMM", "headMM", "administrator"]
+        },
+        "supreme": {
+            "name": "Valor Middleman - Trade Between $165-$285/50k-75k Robux",
+            "value": "supreme_mm",
+            "pingRoles": ["supremeMM", "headMM", "administrator"]
+        },
+        "head": {
+            "name": "Head Middleman - Trade Between $285-$500/75k-140k Robux",
+            "value": "head_mm",
+            "pingRoles": ["headMM", "administrator"]
+        },
+        "admin": {
+            "name": "Management - Trades Over $500+",
+            "value": "admin_mm",
+            "pingRoles": ["administrator"]
+        }
+	},
+    "newAccountAgeDays": 7,
+	"welcomeChannelId": "",
+    "welcomeMessage": "Welcome {user} to **{guild}**! We hope you enjoy your stay.",
+    "autoRoleIDs": [
+        "",
+        "",
+        ""
+    ]
+}
+
+

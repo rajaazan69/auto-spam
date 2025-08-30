@@ -1,0 +1,29 @@
+{
+  "name": "middleman-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for handling middleman tickets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "middleman",
+    "ticket"
+  ],
+  "author": "YourName",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.72",
+    "axios": "^1.9.0",
+    "discord-html-transcripts": "^3.1.4",
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "ms": "^2.1.3",
+    "npm": "^10.9.3"
+  }
+}
